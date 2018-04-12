@@ -23,10 +23,10 @@ models:
         description: Execute.
         type: simple
       - id: hash
-        name: hash
+        name: Hash document
         description: Hash.
         type: simple
       - id: slowhash
-        name: slowhash
+        name: Hash document (slow)
         description: Slow hash.
         type: simple
