@@ -1,2 +1,2 @@
-# Governify Designer Module Dommy
-This is a Dommy NodeJS module for Governify Designer application.
+# Governify Designer Module Dummy
+This is a Dummy NodeJS module for Governify Designer application.
