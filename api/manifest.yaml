@@ -1,0 +1,32 @@
+id: dummy-module
+title: Dummy Designer Module
+description: >-
+  This is a dummy designer module
+apiVersion: '2'
+helpUri: /statics/help.html
+models:
+  - id: dummy
+    extension: dummy
+    name: DUMMY
+    syntaxes:
+      - id: dummy
+        readOnly: false
+        editorModeId: ace/mode/yaml
+        editorModeURI: mode-yaml.js
+        editorThemeId: ace/theme/yaml
+        editorThemeURI: theme-yaml.js
+        syntaxCheck: false
+        consistencyCheck: false
+    operations:
+      - id: executeDocument
+        name: Execute
+        description: Execute.
+        type: simple
+      - id: hash
+        name: hash
+        description: Hash.
+        type: simple
+      - id: slowhash
+        name: slowhash
+        description: Slow hash.
+        type: simple

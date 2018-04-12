@@ -1,0 +1,26 @@
+{
+  "name": "governify-designer-module-dummy",
+  "version": "1.0.0",
+  "description": "This is a dummy designer module.",
+  "main": "index.js",
+  "keywords": [
+    "dummy",
+    "designer",
+    "governify"
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "governify-csp-tools": "^0.3.6",
+    "js-yaml": "^3.11.0",
+    "jsonlint": "^1.6.3",
+    "request": "^2.85.0",
+    "swagger-tools": "^0.10.3"
+  }
+}
