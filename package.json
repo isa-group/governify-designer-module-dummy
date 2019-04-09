@@ -18,7 +18,7 @@
     "cors": "^2.8.4",
     "express": "^4.16.3",
     "governify-csp-tools": "^0.3.6",
-    "js-yaml": "^3.11.0",
+    "js-yaml": "^3.13.1",
     "jsonlint": "^1.6.3",
     "request": "^2.85.0",
     "swagger-tools": "^0.10.3"
