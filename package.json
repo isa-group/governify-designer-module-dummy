@@ -9,7 +9,9 @@
     "governify"
   ],
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "license": "MIT",
   "private": true,
@@ -21,6 +23,8 @@
     "js-yaml": "^3.11.0",
     "jsonlint": "^1.6.3",
     "request": "^2.85.0",
-    "swagger-tools": "^0.10.3"
-  }
+    "swagger-tools": "^0.10.3",
+    "snyk": "^1.317.0"
+  },
+  "snyk": true
 }
